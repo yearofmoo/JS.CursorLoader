@@ -5,9 +5,25 @@ mootools:
   output:
     - Source/JS.CursorLoader.MooTools.js
 
+mootools_min:
+  filters:
+    - cat Source/JS.CursorLoader.MooTools.js | jsmin > %{output}
+  input:
+    - Source/JS.CursorLoader.MooTools.js
+  output:
+    - Source/JS.CursorLoader.MooTools.min.js
+
 jquery:
   input:
     - Source/include/JS.Driver/Source/JS.Driver.jQuery.js
     - Source/src/JS.CursorLoader.js
   output:
     - Source/JS.CursorLoader.jQuery.js
+
+jquery_min:
+  filters:
+    - cat Source/JS.CursorLoader.jQuery.js | jsmin > %{output}
+  input:
+    - Source/JS.CursorLoader.jQuery.js
+  output:
+    - Source/JS.CursorLoader.jQuery.min.js
