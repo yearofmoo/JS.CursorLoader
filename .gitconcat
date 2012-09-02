@@ -1,3 +1,9 @@
+cursor_loader:
+  input:
+    - Source/src/JS.CursorLoader.js
+  output:
+    - Source/JS.CursorLoader.js
+
 mootools:
   input:
     - Source/include/JS.Driver/Source/JS.Driver.MooTools.js
