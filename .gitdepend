@@ -1,0 +1,3 @@
+- path: Source/include/JS.Driver
+  repo: git://github.com/yearofmoo/JS.Driver.git
+  keep: false

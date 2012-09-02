@@ -1,0 +1,13 @@
+mootools:
+  input:
+    - Source/include/JS.Driver/Source/JS.Driver.MooTools.js
+    - Source/src/JS.CursorLoader.js
+  output:
+    - Source/JS.CursorLoader.MooTools.js
+
+jquery:
+  input:
+    - Source/include/JS.Driver/Source/JS.Driver.jQuery.js
+    - Source/src/JS.CursorLoader.js
+  output:
+    - Source/JS.CursorLoader.jQuery.js
